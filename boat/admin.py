@@ -18,6 +18,6 @@ class BoatAdmin(admin.ModelAdmin):
 
 
 @admin.register(BoatHistory)
-class BoatAdmin(admin.ModelAdmin):
+class BoatHistoryAdmin(admin.ModelAdmin):
     list_display = ('boat', 'start_year', 'stop_year', 'owner',)
     list_filter = ('boat', 'owner',)
